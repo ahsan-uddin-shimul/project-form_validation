@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="test.js"></script>
+</head>
+<body onload="onLoad()">
+
+    <div class="main_container">
+
+        <div id="sub_container">
+            
+            <h2 id="header">Contact Form</h2>
+            <p id="sub-header">Please fill in your information and submit</p>
+        
+            <div class="container_name">
+                <label id="label_name" class="label_common">Your name</label>
+                <input id="input_name" onkeydown="nameChangeFunc()" type="text" placeholder="Type your name">
+                <p id="taken_name"></p>
+            </div>
+
+            <div class="container_email">
+                <label id="label_email" class="label_common">Your email</label>
+                <input id="input_email" onfocus="nameFunc()" onkeydown="emailChangeFunc()" type="text" placeholder="Type your email">
+                <p id="taken_email"></p>
+            </div>
+
+            <div class="container_phone">
+                <label id="label_phone" class="label_common">Your phone number</label>
+                <input id="input_phone" onfocus="mailFunc()" onkeydown="telChangeFunc()" type="number" placeholder="Type your phone">
+                <p id="taken_phone"></p>
+            </div>  
+
+            <div class="container_message">
+                <label id="label_message" class="label_common">Message</label>
+                <textarea id="text_input" onfocus="telFunc()" oninput="autoCounter()" onkeydown="comChangeFunc()"  placeholder="Type your message" rows="5" cols="10"></textarea>
+                <p id="counter_output"></p>
+                <p id="taken_comm"></p>
+            </div>
+
+            <button id="submit" onclick="comFunc()">Submit</button>
+       
+        </div>
+
+    </div>
+    
+</body>
+
+</html>

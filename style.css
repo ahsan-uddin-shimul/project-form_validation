@@ -1,0 +1,147 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+body {   
+    background-size: 1600px;
+}
+
+#header {
+    font-family: 'Poppins', sans-serif;
+    color:rgb(56, 21, 211);
+    font-size: 25px;
+    padding: 20px 0 0 0;
+    
+    
+}
+
+#sub-header {
+    font-family: 'Poppins', sans-serif;
+    color:rgb(85, 51, 0);
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+label, input, button {
+ 
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+
+}
+
+.main_container {
+    display: block;
+    width: 600px;
+    height: auto;
+    margin: 50px auto 50px 200px;
+    background-color: #bacfff;
+    box-shadow: 5px 5px 0px rgb(19, 0, 0);
+    
+    
+}
+
+#sub_container {
+    margin: 20px 40px;
+}
+
+#submit {
+    width: 200px;
+    font-size: 14px;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+.container_name, .container_email, .container_phone, .container_message {
+    width: 300px;
+    margin: 10px 0;
+}
+
+#input_name, #input_email, #input_phone, #text_input {
+    width: 250px;
+    padding: 3px;
+    border-style: none;
+    border: 1px solid rgb(202, 202, 202);
+    
+    
+}
+
+button {
+    margin-top: 8px;
+    font-size: 14px;
+    padding: 1px 5px;
+    width: 100px;
+    border-style: none;
+    border: 1px solid rgb(207, 207, 207);
+}
+
+textarea {
+    resize: none;
+}
+
+button:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+#submit {
+    background-color: rgb(187, 187, 255);
+    padding: 2px;
+    width: 200px;
+    height: 30px;
+    border-style: none;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+}
+
+#submit:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+
+}   
+
+.container_email p {
+    width: 400px;
+    font-family: 'Poppins', sans-serif;
+    font-style:italic;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.container_message textarea {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.container_name p {
+    width: 400px;
+    font-family: 'Poppins', sans-serif;
+    font-style:italic;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.container_phone p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.container_message p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+#container-side {
+    display: block;
+    width: 300px;
+    background-color:rgb(255, 162, 232);
+    padding: 10px;
+    
+}
+
+
+
+
+
+
+
